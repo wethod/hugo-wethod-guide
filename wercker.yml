@@ -24,10 +24,15 @@ build:
         name: echo
         code: |
           echo "hello world!"
+    - install-packages:
+        packages: git
     - script:
-        name: build
+        name: download theme
+        code: |
+            $(git clone git@github.com:digitalcraftsman/hugo-material-docs.git)
     - arjen/hugo-build:
         version: "0.20.2"
+        theme: hugo-material-docs
         flags: --buildDrafts=true
 deploy:
   steps:
