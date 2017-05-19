@@ -1,74 +1,52 @@
 baseurl = "https://wethod.github.io/hugo-wethod-guide/"
-publishDir = "docs"
-languageCode = "en-us"
-title = "WETHOD / Learning Center"
-theme = "hugo-material-docs"
-metadataformat = "yaml"
 canonifyurls = true
-# Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
-
-[params]
-	# General information
-	author = "Digitalcraftsman"
-	description = "A material design theme for documentations."
-	copyright = "Released under the MIT license"
-
-	# Repository
-	provider = ""
-	repo_url = ""
-
-	version = ""
-	logo = "images/logo.png"
-	favicon = "images/favicon.ico"
-
-	permalink = "#"
-
-	# Custom assets
-	custom_css = [
-		"public/stylesheets/extended-palette.css",
-	]
-	custom_js  = []
-
-	# Syntax highlighting theme
-	highlight_css  = ""
-
-	[params.palette]
-    	primary = "black"
-    	accent  = "teal"
-
-    [params.font]
-    	text = "Ubuntu"
-    	code = "Ubuntu Mono"
-
-
-[social]
-	twitter = "wethodhq"
-	github  = ""
-	email   = "info@wethod.com"
-
-[[menu.main]]
-	name   = "Getting started"
-	url    = "getting-started/"
-	weight = 10
-
-[[menu.main]]
-	name   = "Dashboard"
-	url    = "dashboard/"
-	weight = 20
-
-[[menu.main]]
-	name   = "Pipeline"
-	url    = "pipeline/"
-	weight = 30
-
-[[menu.main]]
-	name   = "Planning"
-	url    = "planning/"
-	weight = 40
-
+languageCode = "en-us"
+metadataformat = "yaml"
+publishDir = "docs"
+theme = "hugo-material-docs"
+title = "WETHOD / Learning Center"
 [blackfriday]
-	smartypants	= true
-	fractions = true
-	smartDashes = true
-	plainIDAnchors = true
+fractions = true
+plainIDAnchors = true
+smartDashes = true
+smartypants = true
+[[menu.main]]
+name = "Planning"
+url = "planning/"
+weight = 3
+[[menu.main]]
+name = "Pipeline"
+url = "pipeline/"
+weight = 2
+[[menu.main]]
+name = "Dashboard"
+url = "dashboard/"
+weight = 1
+[[menu.main]]
+name = "Getting started"
+url = "getting-started/"
+weight = 4
+[params]
+author = "Digitalcraftsman"
+copyright = "Released under the MIT license"
+custom_css = ["public/stylesheets/extended-palette.css"]
+custom_js = []
+description = "A material design theme for documentations."
+favicon = "images/favicon.ico"
+highlight_css = ""
+logo = "images/logo.png"
+permalink = "#"
+provider = ""
+repo_url = ""
+version = ""
+[params.font]
+code = "Ubuntu Mono"
+text = "Ubuntu"
+[params.palette]
+accent = "teal"
+primary = "black"
+[social]
+email = "info@wethod.com"
+github = ""
+twitter = "wethodhq"
