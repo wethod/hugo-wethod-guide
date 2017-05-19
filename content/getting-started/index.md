@@ -1,9 +1,9 @@
 ---
-date: 2016-03-09T00:11:02+01:00
-title: Getting started
+date: '2016-03-09T00:11:02+01:00'
+title: Getting startedwrgtgfqqr334
 weight: 10
----
 
+---
 ## Installation
 
 ### Installing Hugo-sfgsgs
