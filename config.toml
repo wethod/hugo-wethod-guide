@@ -1,0 +1,74 @@
+baseurl = "https://wethod.github.io/hugo-wethod-guide/"
+publishDir = "docs"
+languageCode = "en-us"
+title = "WETHOD / Learning Center"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = ""
+	repo_url = ""
+
+	version = ""
+	logo = "images/logo.png"
+	favicon = "images/favicon.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = [
+		"public/stylesheets/extended-palette.css",
+	]
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "black"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "wethodhq"
+	github  = ""
+	email   = "info@wethod.com"
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Dashboard"
+	url    = "dashboard/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Pipeline"
+	url    = "pipeline/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Planning"
+	url    = "planning/"
+	weight = 40
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
