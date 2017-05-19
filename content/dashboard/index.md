@@ -4,18 +4,20 @@ title: Dashboard-sbearbeqbe
 weight: 20
 
 ---
-## Helloqweverrevvev
 
-L_et's create our first content file for yo_ur documenion. Open a terminal and add the following command for each new file you want to add. Replace `&lt;section-name&gt;` with a general term that describes your document in detail.
+
+## Helloqweve
+
+L_et's create our first content file for yo_ur documenion. Open a terminal and add the following command for each new file you want to add. Replace `&amp;lt;section-name&amp;gt;` with a general term that describes your document in detail.
 
 ```
-hugo new &lt;section-name&gt;/filename.md
+hugo new &amp;lt;section-name&amp;gt;/filename.md
 
 ```
 
-Visitors of your website will find the final document under `www.example.com/&lt;section-name&gt;/filename/`.
+Visitors of your website will find the final document under `www.example.com/&amp;lt;section-name&amp;gt;/filename/`.
 
-Since it's possible to have multiple content files in the same section I recommend to create at least one `index.md` file per section. This ensures that users will find an index page under `www.example.com/&lt;section-name&gt;`.
+Since it's possible to have multiple content files in the same section I recommend to create at least one `index.md` file per section. This ensures that users will find an index page under `www.example.com/&amp;lt;section-name&amp;gt;`.
 
 ## Homepage
 
@@ -30,7 +32,7 @@ Otherwise the theme will not be able to find the corresponding content file.
 
 ## Table of contents
 
-You maybe noticed that the menu on the left contains a small table of contents of the current page. All `&lt;h2&gt;` tags (`## Headline` in Markdown) will be added automatically.
+You maybe noticed that the menu on the left contains a small table of contents of the current page. All `&amp;lt;h2&amp;gt;` tags (`## Headline` in Markdown) will be added automatically.
 
 ## Admonitions
 
