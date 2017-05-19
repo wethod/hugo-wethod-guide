@@ -4,8 +4,6 @@ title: Dashboard-sbearbeqbe
 weight: 20
 
 ---
-
-
 ## Helloqweverrevvev
 
 L_et's create our first content file for yo_ur documenion. Open a terminal and add the following command for each new file you want to add. Replace `&lt;section-name&gt;` with a general term that describes your document in detail.
