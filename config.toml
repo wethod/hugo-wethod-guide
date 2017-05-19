@@ -13,24 +13,24 @@ smartDashes = true
 smartypants = true
 [[menu.main]]
 name = "Planning"
-url = "planning/"
+url = "planning/index/"
 weight = 3
 [[menu.main]]
 name = "Pipeline"
-url = "pipeline/"
+url = "pipeline/index/"
 weight = 2
 [[menu.main]]
 name = "Dashboard"
-url = "dashboard/"
+url = "dashboard/index/"
 weight = 1
 [[menu.main]]
 name = "Getting started"
-url = "getting-started/"
+url = "getting-started/index/"
 weight = 4
 [params]
 author = "Digitalcraftsman"
 copyright = "Released under the MIT license"
-custom_css = ["public/stylesheets/extended-palette.css"]
+custom_css = []
 custom_js = []
 description = "A material design theme for documentations."
 favicon = "images/favicon.ico"
