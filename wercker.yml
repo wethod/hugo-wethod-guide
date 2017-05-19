@@ -27,7 +27,7 @@ build:
     - script:
         name: build
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.20.2"
         flags: --buildDrafts=true
 deploy:
   steps:
