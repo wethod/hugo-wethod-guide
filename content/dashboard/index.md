@@ -4,7 +4,7 @@ title: Dashboard
 weight: 20
 ---
 
-## Hello world - CIAONEEEE
+## Hello world
 
 Let's create our first content file for your documentation. Open a terminal and add the following command for each new file you want to add. Replace `<section-name>` with a general term that describes your document in detail.
 
@@ -34,23 +34,12 @@ You maybe noticed that the menu on the left contains a small table of contents o
 
 Admonition is a handy feature that adds block-styled side content to your documentation, for example hints, notes or warnings. It can be enabled by using the corresponding [shortcodes](http://gohugo.io/extras/shortcodes/) inside your content:
 
-```go
-{{</* note title="Note" */>}}
-Nothing to see here, move along.
-{{</* /note */>}}
-```
 
 This will print the following block:
 
 NONE
 
 The shortcode adds a neutral color for the note class and a red color for the warning class. You can also add a custom title:
-
-```go
-{{</* warning title="Don't try this at home" */>}}
-Nothing to see here, move along.
-{{</* /warning */>}}
-```
 
 This will print the following block:
 
