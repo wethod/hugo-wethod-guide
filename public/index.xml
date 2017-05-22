@@ -56,12 +56,12 @@ hugo version # Hugo Static Site Generator v0.15 BuildDate: 2016-01-03T12:47:47+0
     </item>
     
     <item>
-      <title>Material for Hugo</title>
+      <title>Material for Wethod</title>
       <link>https://wethod.github.io/hugo-wethod-ghpages/index/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>https://wethod.github.io/hugo-wethod-ghpages/index/</guid>
-      <description>Beautiful documentation Material is a theme for Hugo, a fast and flexible static site generator. It is built using Google&amp;rsquo;s material design guidelines, fully responsive, optimized for touch and pointer devices as well as all sorts of screen sizes.
+      <description>A Lean Multi-Project Management Platform Material is a theme for Hugo, a fast and flexible static site generator. It is built using Google&amp;rsquo;s material design guidelines, fully responsive, optimized for touch and pointer devices as well as all sorts of screen sizes.
 Material is very lightweight – it is built from scratch using Javascript and CSS that weighs less than 30kb (minified, gzipped and excluding Google Fonts and Analytics). Yet, it is highly customizable and degrades gracefully in older browsers.</description>
     </item>
     
