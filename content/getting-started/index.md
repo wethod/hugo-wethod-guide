@@ -4,8 +4,6 @@ title: Getting Started
 weight: 100
 
 ---
-
-
 ## Installation WETHOD 8'9e'23457325732ì45
 
 ### Installing Hugo-sfgsgs

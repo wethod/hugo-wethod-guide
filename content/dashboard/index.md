@@ -4,8 +4,6 @@ title: Dashboard-WETHOD
 weight: 20
 
 ---
-
-
 ## Hello WETHOD
 
 L_et's create our first content file for yo_ur documenion. Open a terminal and add the following command for each new file you want to add. Replace `&amp;amp;lt;section-name&amp;amp;gt;` with a general term that describes your document in detail.
