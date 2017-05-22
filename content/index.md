@@ -9,9 +9,11 @@ weight: 0
 
 ## A Lean Multi-Project Management Platform
 
-Material is a theme for [Hugo](https://gohugo.io), a fast and flexible static site generator. It is built using Google's [material design](https://www.google.com/design/spec/material-design/introduction.html)
-guidelines, fully responsive, optimized for touch and pointer devices as well
-as all sorts of screen sizes.
+WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo. L’obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
+
+Il risultato è un sistema integrato che gestisce tutte le informazioni essenziali a un’organizzazione orientata ai progetti: budget, pianificazione, timesheet e report delle attività.
+
+Ciò permette di creare un sistema dove tutti collaborano e mantengono le informazioni sempre aggiornate, un sistema che premia i comportamenti virtuosi e penalizza gli altri.
 
 ![Material Screenshot](/images/screen.png)
 
@@ -25,7 +27,7 @@ browsers.
 Install with `git`:
 
 ```
-git &lt;u&gt;clone&lt;/u&gt; git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
+git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
 
 ```
 
